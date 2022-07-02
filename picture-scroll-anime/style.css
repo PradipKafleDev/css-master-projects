@@ -1,0 +1,33 @@
+.image{
+    height: 500px;
+    width: 550px;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+  
+   
+  }
+
+   .box {
+    transform: translateX(400%);
+    transition: transform 0.8s ease;
+    width: 550px;
+    height: 500px;
+    padding-bottom: 20px;
+    box-shadow: 5px 10px 15px black;
+    
+  }
+  
+  .box:nth-of-type(even) {
+    transform: translateX(-400%);
+  }
+  
+  .box.show {
+    transform: translateX(0);
+  }

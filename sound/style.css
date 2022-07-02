@@ -1,0 +1,27 @@
+body{
+  background:  linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  
+
+}
+
+.btn {
+    background-color: rgb(255, 0, 221);
+    border-radius: 90px;
+    border: none;
+    color: #fff;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
